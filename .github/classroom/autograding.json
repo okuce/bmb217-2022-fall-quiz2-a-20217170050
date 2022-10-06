@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "main.py",
+      "setup": "",
+      "run": "python main.py",
+      "input": "",
+      "output": "Ankara,Osmaniye,06T9876,4,6\r\nOsmaniye,Ankara,80TT458,3,2\r\nİstanbul,Osmaniye,06RE876,2,10\r\nOsmaniye,İstanbul,34UY887,2,6",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
