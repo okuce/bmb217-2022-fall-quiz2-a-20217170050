@@ -1,3 +1,12 @@
+"""
+Adi: Dogukan 
+Soyadi: Aksoy
+Numarasi: 20217170050
+Sinif: 2.sinif
+Bolum: Bilgisyara Muhendisligi
+
+"""
+
 class Otobus:
     """Otobus bilet satis takip sinifi"""
     plaka:str = ""      # otobusun plakasi
@@ -16,7 +25,7 @@ class Otobus:
         
         self.plaka = plaka
         self.nereden = nereden
-        self.nereden = nereye
+        self.nereye = nereye
         self.koltuk_sayisi = ksayisi
     
 
@@ -35,6 +44,4 @@ class Otobus:
     
     def durum_yaz(self):
         """Otobusun guzergahini, plakasini,bos ve dolu koltuk sayisini yazdirir"""
-        text = "{}, {}, {}, {}, {}"
-        print(text.format(self.nereden, self.nereye, self.plaka, self.koltuk_sayisi - self.dolu_koltuk_saysisi, self.dolu_koltuk_saysisi))
-        
+        print(f"{self.nereden},{self.nereye},{self.plaka},{self.koltuk_sayisi - self.dolu_koltuk_saysisi},{self.dolu_koltuk_saysisi}")
